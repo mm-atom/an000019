@@ -1,9 +1,6 @@
 	// redis expire
-	/**
-	 * ${0:变量注释}
-	 */
-	const r$CURRENT_SECONDS_UNIX = await(() => {
-		const p1 = $1;	// 参数注释
-		const p2 = $2;	// 参数注释
-		return an19(p1, p2);
+	await(() => {
+		const p1 = $1;	// key
+		// const p2 = $2;	// 失效时间，不传使用mm.json中配置默认值
+		return an19(p1);
 	})();
