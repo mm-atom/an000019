@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000019",
-	"version": "1.0.202003131401",
+	"version": "1.0.202003171130",
 	"description": "redis expire",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
